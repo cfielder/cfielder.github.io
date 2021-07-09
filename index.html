@@ -203,14 +203,14 @@
 								Paper on determining the SED of the Milky Way, <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv210614900F/abstract" target="_blank"> submitted to Month Notices of the Royal Astronomical Society. </a> <br>
 								<a href="https://ui.adsabs.harvard.edu/search/q=docs(6fdea6478e03ad808deb5482b30277c4)&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank">Second author papers. </a>
 							</p>
-							<span class="image main">
-								<div style="width:image width px; font-size:80%; text-align:center;">
-									<img src="images/sed_brown.pdf" alt="Milky Way SED" style="padding-bottom:0.5em; object-fit: cover;" />The SED of the Milky Way constructed in <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv210614900F/abstract" target="_blank"> Fielder et al. 2021. </a>.</a></div>
-							</span>
 							<p>
 								<b>Machine learning using Gaussian process regressions:</b> to construct robuts models that allow us to both better constrain the
 								evolutionary history of the Milky Way and connect dark matter halo simulation predictions with observations.
 							</p>
+							<span class="image main">
+								<div style="width:image width px; font-size:80%; text-align:center;">
+									<img src="images/sed_brown.pdf" alt="Milky Way SED" style="padding-bottom:0.5em; object-fit: cover;" />The SED of the Milky Way constructed in <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv210614900F/abstract" target="_blank"> Fielder et al. 2021 with Gaussian Process Regression. </a>.</a></div>
+							</span>
 							
 						</article>
 
@@ -247,9 +247,23 @@
 								This code is useful for anyone interested in selecticting Milky Way, Andromeda, etc. analog galaxies.
 							</p>
 							<p>
-								<b>Useful Catalogs:</b>
-								Links to catalogs with which to study Milky Way analogs will be included shortly.
+								<b>Useful Catalogs:</b><br>
+								<a href="https://github.com/cfielder/Catalogs">Github repository for catalogues used in Licquia et al. 2015 and Fielder et al. 2021.</a> <br>
+								This repository contains the cross-matched catalogues for
+								<ol>
+  									<li>SDSS DR8 photometry + MPA-JHU stellar masses and star formation rates + Simard et al. 2011 bulge-disck decompositions + GSWLC-M2 + Galaxy Zoo 2</li>
+  									<li>All previously listed catalogues + DESI Legacy DR8 WISE measurements and their k-corrected values </li>
+								</ol>
 							</p>
+							<p>
+								<b>Gaussian Process Regression for Photometry:</b><br>
+								<a href="https://github.com/cfielder/GPR-for-Photometry">Github repository with example code for the methods presented in Fielder et al. 2021.</a> <br>
+								This code, provided under a CC BY-SA 4.0 license, is available to those interested in using Gaussian Process Regression 
+								with observed photometry in some way. We provide our functions fo specifically working with the Milky Way, but these can be
+								adapted for other uses. We also provide examples for running a basic GPR (using the scikit-learn implementation in python),
+								performing Eddington bias calculations and their respective functions, calculating derivatives and their respective functions,
+								and example code for constructing an SED based upon ones results.
+								
 						</article> 
 						<!-- Here is a the "Contact" card. -->
 						<article id="contact">
@@ -260,7 +274,7 @@
 								fielder.catherine@gmail.com <a href="mailto:fielder.catherine@gmail.com">Send mail.</a>
 							</p>
 							<p> 
-								<b>Address:</b> <br>
+								<b>Work Address:</b> <br>
       								
 								Allen 300 No. 12<br>
 								3941 O'Hara St,<br>
